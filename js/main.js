@@ -17,8 +17,10 @@
             const subtitle = document.createElement('p');
             subtitle.innerText = "Makasih udah mau percaya sama aku buat bikinin hadiah buat kalian kasih ke orang spesial";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
+            subtitle.font-family= '"Playwrite DE Grund", cursive';
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
+
 
             // Menambahkan subtitle di bawah #title
             titleElement.appendChild(subtitle);
