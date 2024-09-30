@@ -15,7 +15,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Makasih udah mau percaya sama aku buat bikinin hadiah buat kalian kasih ke orang spesial";
+            subtitle.innerText = "Makasih udah mau percaya sama aku buat bikinin hadiah buat kalian kasih ke orang spesial 🤍🤍";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
