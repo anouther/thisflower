@@ -7,6 +7,12 @@
         const titleElement = document.getElementById('title');
         let index = 0;
 
+ function play() {
+          //Link Audio Bisa Diganti
+          var audio = new Audio('anchor.mp3');
+          audio.play();
+        }
+
         function appendTitle() {
           if (index < titles.length) {
             titleElement.innerHTML += titles[index];
